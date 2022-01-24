@@ -10,7 +10,7 @@ ul.social-network li {
 }
 
 .fa{
-    font-size: 35pt;
+    font-size: 30pt;
     color: white;
     padding: 10px;
 }
@@ -24,7 +24,7 @@ ul.social-network li {
 }
 
 .fa-github-square:hover {
-    color: #000;
+    color: rgb(36, 34, 34);
 }
 
 .fundo {
@@ -32,9 +32,9 @@ ul.social-network li {
 }
 
 .copy {
-    background-color: #9A8873;
+    background-color: #000000;
 }
 
 .cor{
-    color: #28464B;
+    color: #9A8873;
 }
