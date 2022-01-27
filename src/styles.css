@@ -11,3 +11,17 @@ html {
 .fs-18 {
     font-size: 18pt;
 }
+
+.fonteTerror {
+    font-family: 'Creepster', cursive;
+    font-size: 60px;
+}
+
+.fonteTexto {
+    font-family: 'Mate SC', serif;
+    font-size: 21px;
+}
+
+.fonteSobre {
+    font-family: 'Bangers', cursive;
+}
