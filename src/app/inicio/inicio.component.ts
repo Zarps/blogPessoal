@@ -29,7 +29,7 @@ export class InicioComponent implements OnInit {
     private router: Router,
     private postagemService: PostagemService,
     private temaService: TemaService,
-    private authService: AuthService
+    private authService: AuthService,
   ) { }
 
   ngOnInit(){
@@ -38,9 +38,9 @@ export class InicioComponent implements OnInit {
       this.router.navigate(["/login"])
     }
 
+    this.authService.refreshToken()
     this.getAllTemas()
     this.getAllPostagens()
-    this.findByIdUser()
     
   }
 
