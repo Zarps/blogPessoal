@@ -15,6 +15,8 @@ import { TemaComponent } from './tema/tema.component';
 import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
 import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.component';
+import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { SobreComponent } from './sobre/sobre.component';
     TemaComponent,
     TemaEditComponent,
     TemaDeleteComponent,
-    SobreComponent
+    SobreComponent,
+    PostagemEditComponent,
+    PostagemDeleteComponent
   ],
   imports: [
     BrowserModule,
