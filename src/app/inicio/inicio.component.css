@@ -9,3 +9,24 @@
 .fundobox {
     background-color: #000000;
 }
+
+.button {
+    background-color: #000000;
+    font-size: 19px;
+    
+}
+
+.button:hover {
+    background-color: #50190d;
+}
+
+.but {
+    font-size: 19px;
+    border-color: #000000;
+    color: #000000;
+}
+
+.but:hover {
+    background-color: #000000;
+    
+}
