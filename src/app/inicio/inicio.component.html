@@ -46,9 +46,9 @@
     <div class="tab-content pt-5 fonteTexto" id="myTabContent">
         <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="todasPostagens-tab">
             
-            <div class="card-columns">
-                <div class="card text-center fundobox text-white" *ngFor="let item of listaPostagens">
-                    <div class="card-body">
+            <div class="card-columns p-2">
+                <div class="card text-center fundobox text-white m-2" *ngFor="let item of listaPostagens">
+                    <div class="card-body shadowCard p-5">
                     <h5 class="card-title m-0">{{item.titulo}}</h5>
                     <small class="text-muted "> Tema: {{item.tema.descricao}}</small>
                     <p class="card-text pt-3">{{item.texto}}</p>
@@ -61,9 +61,9 @@
         </div>
         <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="minhasPostagens-tab">
             
-            <div class="card-columns">
-                <div class="card text-center fundobox text-white" *ngFor='let item of user.postagem'>
-                    <div class="card-body">
+            <div class="card-columns p-2">
+                <div class="card text-center fundobox text-white m-2" *ngFor='let item of user.postagem'>
+                    <div class="card-body shadowCard p-5">
                     <h5 class="card-title m-0">{{item.titulo}}</h5>
                     <small class="text-muted "> Tema: {{item.tema.descricao}}</small>
                     <p class="card-text pt-3">{{item.texto}}</p>
@@ -81,9 +81,9 @@
         </div>
         <div class="tab-pane fade" id="postagemPorTema" role="tabpanel" aria-labelledby="postagemTema-tab">
             
-            <div class="card-columns " *ngFor='let tema of listaTemas'>
-                <div class="card text-center fundobox text-white" *ngFor='let item of tema.postagem'>
-                    <div class="card-body">
+            <div class="card-columns p-2" *ngFor='let tema of listaTemas'>
+                <div class="card text-center fundobox text-white m-2" *ngFor='let item of tema.postagem'>
+                    <div class="card-body shadowCard p-5">
                     <h5 class="card-title m-0">{{item.titulo}}</h5>
                     <p class="card-text pt-3">{{item.texto}}</p>
                     <p class="card-text"><small class="text-muted">{{item.data | date: 'dd/MM/yyyy'}}</small></p>
