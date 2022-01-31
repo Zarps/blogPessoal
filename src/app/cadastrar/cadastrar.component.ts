@@ -47,7 +47,7 @@ export class CadastrarComponent implements OnInit {
         this.usuario = resp
         this.router.navigate(["/login"])
 
-        alert("Usuário Cadastrado com sucesso!")
+        this.alertas.showAlertSuccess("Usuário Cadastrado com sucesso!")
 
       })
     }

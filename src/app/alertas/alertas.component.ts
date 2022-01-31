@@ -10,7 +10,7 @@ import { AlertasService } from '../service/alertas.service';
 export class AlertasComponent implements OnInit {
 
   @Input() message: string
-  @Input() tipo: string
+  @Input() type: string
 
   constructor(
     public modal: BsModalRef
